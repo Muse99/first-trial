@@ -27,8 +27,22 @@
 
 
 <form class="" action="index.html" method="post" id="survey-form">
+  <label for="name" id="name-label">name</label>
   <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required="">
+  <label for="name" id="email-label">email</label>
 <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required="">
+<label for="name" id="number-label">name</label>
+<input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age">
+<div class="form-group">
+          <p>Which option do you prefer !</p>
+          <select id="dropdown" name="role" class="form-control" required="">
+            <option disabled="" selected="" value="">Select current role</option>
+            <option value="first option">first option</option>
+            <option value="second option">second option</option>
+          </select>
+        </div>
+<label><input  type="radio" class="input-radio">Maybe</label>
+<label><input  type="radio" class="input-radio">Maybe</label>
 </form>
 
     <script  src="js/index.js"></script>
